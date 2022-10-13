@@ -23,6 +23,7 @@ code {
   justify-content: center;
 }
 #viewer {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;

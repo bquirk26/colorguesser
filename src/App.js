@@ -34,8 +34,8 @@ function App() {
 
   return (
     <div id = "main">
-      <h1>{score}</h1>
       <div id = "viewer">
+        <h2>score: {score}</h2>
         <div id = "view" style = {{"backgroundColor": `${color}`}}></div>
         <div id = "options">
           {options.map(val => <button key = {val} onClick = {() => checkAnswer(val)}>{val}</button>)}
